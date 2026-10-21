@@ -38,7 +38,6 @@ RUN apk update && \
       tmux \
       vim \
       caddy \
-      sing-box \
       tzdata \
       procps && \
     rm -rf /var/cache/apk/*
